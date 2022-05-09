@@ -1,0 +1,131 @@
+@import url("./index.css");
+.wrap{
+    background-color: #fff;
+    overflow-x: hidden;
+}
+.detail_header{
+    background-image: url("../pic/thumb_1089_blog_1800.jpeg");
+    height: 30vh;
+}
+.c_detail{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.c_detail div{
+    flex-basis: 50%;
+}
+.c_detail div h3{
+    font-size: 2em;
+    font-weight: bold;
+    margin:20px;
+}
+.c_detail div>span{
+    margin-left: 20px;
+    padding: 20px;
+
+}
+.c_move{
+    margin-left: 50px;
+}
+.c_move p{
+    line-height: 50px;
+}
+.c_info{
+
+}
+.c_move h3{
+    padding-top: 50px;
+}
+.c_move h4{
+    margin: 20px 0;
+    font-weight: bold;
+
+}
+.c_price{
+    display: block;
+    font-size: 3rem;
+}
+.c_time{
+    display: block;
+    font-size: 1.6rem;
+}
+.c_time_ch {
+    font-size: 24px;
+}
+.c_detail div .c_time_ch{
+    display:flex;
+    align-items:baseline;
+    justify-content: space-around;
+    padding: 20px;
+
+}
+.c_time_ch li{
+    border: 1px solid black;
+    margin: 10px;
+    border-radius: 5px;
+
+}
+.c_time_ch li:hover{
+    background-color: black;
+    color: #fff;
+}
+.c_buy_button{
+    display: block;
+    width: 150px;
+    padding: 20px 30px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+    border: 2px solid black;
+    font-size: 1.5rem;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 10px;
+}
+.c_buy_button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.c_detail h4{
+    font-size: 1.6em;
+    margin: 20px 0;
+}
+.c_detail p{
+    font-size: 1.3em;
+}
+@media screen and (max-width: 414px) {
+    .detail_header{
+        background-image: url("");
+        height: 0vh;
+    }
+    .c_move{
+        margin-left: 10px;
+    }
+    .c_move p{
+        margin: 0 auto;
+        width: 350px;
+        text-align: center;
+        line-height: 40px;
+        font-size: 1.5rem;
+    }
+    .c_move h4{
+        text-align: center;
+        font-size: 1.5rem;
+    }
+    .c_detail {
+        flex-wrap: wrap;
+    }
+    .c_detail div img{
+        width: 100%;
+    }
+    .c_detail div{
+        flex-basis: 100%;
+    }
+    .c_buy_button{
+        margin: 0 auto;
+        margin-bottom: 50px;
+    }
+}

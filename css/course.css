@@ -1,0 +1,60 @@
+@import url("./index.css");
+.course_header{
+    background-image: url("../pic/file73hkobcn5mghlhawbrw-1548706408.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.course_header .title{
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: rgba(255,255,255,.7);
+}
+.course_body h3{
+    margin: 50px 0;
+    padding: 50px;
+    text-align: center;
+    background-image: linear-gradient(270deg,#E0B360,#E0B360,rgba(0,0,0,0));
+    color: #fff;
+    font-size: 3em;
+}
+.nav .menu li:nth-child(3)::before,.nav .menu li:nth-child(3)::after{
+    width: 100%;
+    right:0;left:0;
+}
+#sideMenu li:nth-child(5) a{
+    color: #fff;
+}
+.class_list{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.class_list li{
+    margin: 50px 50px;
+    flex-basis: 300px;
+}
+@media screen and (max-width: 414px) {
+    .course_body h3{
+
+        margin: 20px 0;
+        padding: 40px;
+        background-image: linear-gradient(270deg,rgba(0,0,0,0),#E0B360,rgba(0,0,0,0)) !important;
+    }
+
+
+    #regForm {
+        padding: 40px 40px;
+        box-sizing: unset;
+    }
+    input {
+        min-width: 150px;
+    }
+}

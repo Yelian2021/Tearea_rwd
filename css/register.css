@@ -1,0 +1,134 @@
+@import url("./index.css");
+
+.reg_header{
+    background-image: url("../pic/file73hkobcn5mghlhawbrw-1548706408.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.reg_header .title{
+    width: 300px;
+    height: 80px;
+    line-height: 80px;
+    text-align: center;
+    background-color: rgba(255,255,255,.7);
+}
+.nav .other li:nth-child(1)::before,.nav .other li:nth-child(1)::after{
+    width: 100%;
+    right:0;left:0;
+  }
+  #sideMenu li:nth-child(1) a{
+    color: #fff;
+  }
+#regForm {
+    background-color: #ffffff;
+    margin: 100px auto;
+    font-family: Raleway;
+    padding: 40px 200px;
+    width: 50%;
+    min-width: 300px;
+    box-sizing: border-box;
+  }
+  .login_re{
+      display: block;
+      margin-bottom: 30px;
+      background-color: #04AA6D;
+      color: #ffffff;
+      border: none;
+      padding: 15px 20px;
+      font-size: 17px;
+      text-align: center;
+      font-family: Raleway;
+      cursor: pointer;
+  }
+  h1 {
+    text-align: center;  
+  }
+  
+  input {
+    padding: 10px 0;
+    margin: 20px auto;
+    width: 100%;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+    display: block;
+    box-shadow: 1px 1px 5px rgb(0 0 0 / 30%);
+    background-color: #e0e0e0;
+    border: 0;
+    transition: .3s;
+  }
+  input:focus{
+    background-color: #fff;
+    border-bottom: 2px solid #ccc;
+    outline: 0;
+  }
+  
+
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+
+  .tab {
+    display: none;
+
+  }
+  
+  button {
+    background-color: #04AA6D;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 17px;
+    font-family: Raleway;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.8;
+  }
+  
+  #prevBtn {
+    background-color: #bbbbbb;
+    width: 49%;
+  }
+  #nextBtn{
+    width: 49%;
+  }
+
+  .step {
+    height: 15px;
+    width: 15px;
+
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;  
+    border-radius: 50%;
+    display: inline-block;
+    opacity: 0.5;
+  }
+  
+  .step.active {
+    opacity: 1;
+  }
+  .step_dot{
+    text-align:center;
+    margin:40px 0;
+  }
+  
+  .step.finish {
+    background-color: #04AA6D;
+  }
+  @media screen and (max-width: 414px) {
+    #regForm {
+        padding: 40px 40px;
+        box-sizing: unset;
+    }
+    input {
+        min-width: 150px;
+    }
+}
